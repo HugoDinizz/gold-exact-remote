@@ -1,0 +1,4 @@
+rank,gold_id,machine,SNR_net,segment,note
+5,8302,IAG-Xeon,86.7,32 s @ 4096 Hz,assigned 2026-11-09
+14,37397,IAG-Xeon,54.6,32 s @ 4096 Hz,assigned 2026-11-09
+26,10419,IAG-Xeon,42.6,32 s @ 4096 Hz,assigned 2026-11-09

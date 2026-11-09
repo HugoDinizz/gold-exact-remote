@@ -1,0 +1,27 @@
+# Matplotlib style of the GOLD figures (Figs/, Catalog_Properties/, Distance_PLOTS/, PeakSirens_PLOTS/):
+# text typeset by LaTeX in Computer Modern, as in a standard article, slightly larger than matplotlib's default.
+# Load it with  plt.style.use(<repository>/validation/paper.mplstyle)  (needs latex and dvipng).
+text.usetex          : True
+text.latex.preamble  : \usepackage{amsmath}
+font.family          : serif
+font.serif           : Computer Modern     # names LaTeX does not map keep its default font (type1cm);
+font.sans-serif      : Computer Modern     #   the default names ("Computer Modern Roman", "... Sans Serif") would
+font.monospace       : Courier             #   load type1ec, from cm-super, which is not installed
+font.size            : 12
+axes.titlesize       : 12
+axes.labelsize       : 13
+legend.fontsize      : 10.5
+legend.frameon       : False
+xtick.labelsize      : 11
+ytick.labelsize      : 11
+xtick.direction      : in
+ytick.direction      : in
+xtick.top            : True
+ytick.right          : True
+axes.formatter.use_mathtext : True
+savefig.dpi          : 300
+savefig.bbox         : tight
+# constrained layout keeps room for labels, colour bars and outside legends: no overlaps
+figure.constrained_layout.use    : True
+figure.constrained_layout.w_pad  : 0.06
+figure.constrained_layout.wspace : 0.06
